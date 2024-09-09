@@ -1,0 +1,18 @@
+[tool.poetry]
+name = "anlp24"
+version = "0.1.0"
+description = ""
+authors = ["Ross Chu <57620530+ross-hm-chu@users.noreply.github.com>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.8"
+nltk = "^3.9.1"
+tiktoken = "^0.7.0"
+spacy = "^3.7.6"
+jupyter = "^1.1.1"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
